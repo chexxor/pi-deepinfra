@@ -121,6 +121,7 @@ export function fallbackModels(): Model<"openai-completions">[] {
 	const entries: Array<[string, number, number, number, number, boolean, boolean]> = [
 		// id, ctx, max, $in, $out, reasoning, vision
 		["deepseek-ai/DeepSeek-V4-Flash-0731", 1_048_576, 1_048_576, 0.09, 0.18, true, false],
+		["zai-org/GLM-5.3-Flash", 1_048_576, 1_048_576, 0.15, 0.5, true, true],
 		["deepseek-ai/DeepSeek-V3-0324", 163_840, 163_840, 0.24, 0.9, false, false],
 		["deepseek-ai/DeepSeek-R1-0528", 163_840, 163_840, 0.5, 2.15, true, false],
 		["Qwen/Qwen3-235B-A22B-Thinking-2507", 262_144, 262_144, 0.23, 2.3, true, false],
